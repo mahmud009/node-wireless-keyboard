@@ -1,0 +1,15 @@
+{
+  "name": "node-wireless-keyboard",
+  "version": "1.0.0",
+  "description": "keyboard sharing program in node.js",
+  "main": "app.js",
+  "scripts": {
+    "backend:dev": "nodemon ./backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
